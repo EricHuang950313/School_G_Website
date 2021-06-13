@@ -16,7 +16,7 @@
         margin: 20px 0px 30px;
         font-size: 60px;
         line-height: 55px;
-        -webkit-text-stroke-width: 10px;
+        -webkit-text-stroke-width: 4px;
     }
     div.normal_icon{
         font-size: 11px;
