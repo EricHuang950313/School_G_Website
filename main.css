@@ -104,7 +104,7 @@
         margin: 20px 0px 50px;
         font-size: 150px;
         line-height: 140px;
-        -webkit-text-stroke-width: 2.2px;
+        -webkit-text-stroke-width: 5px;
     }
     div.normal_icon{
         font-size: 32px;
