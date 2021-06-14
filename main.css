@@ -195,7 +195,7 @@
 .normal_explaination{
     margin: 30px 0px 0px;
     font-family: "fonta";
-    font-size: 65px;
+    font-size: 50px;
 }
 #teacher{
     margin: 0px 0px 30px;
@@ -252,7 +252,6 @@
     animation: round 35s linear infinite;
 }
 .slideshow_containerb{
-    padding: 0 0 45px;
     position: relative;
     width: 50%;
     display: inline-block;
