@@ -8,7 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
-    <style>
+    <style type="text/css">
+        @media screen and (max-width: 500px) and (orientation: portrait){
+            p#a{
+                color: red;
+            }
+        }
+        @media screen and (min-width: 500px) and (orientation: portrait){
+            p#a{
+                color: red;
+            }
+        }
         #outside{
             position: absolute; 
             top: 50%;
@@ -19,7 +29,7 @@
             margin: 0;
             font-family: 'Amatic SC', cursive;
             width:100%;
-            color: white;
+            /* color: white; */
             text-align: center;
             font-size: 40px;
         }
@@ -31,6 +41,7 @@
             text-align: center;
             font-size: 12px;
         }
+        
     </style>
 </head>
 
