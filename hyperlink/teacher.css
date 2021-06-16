@@ -10,8 +10,8 @@
 
 #select{
     position: fixed;
-    top: 5px;
-    left: 37.5%;
+    width: 100%;
+    top: 1%;
 }
 
 
