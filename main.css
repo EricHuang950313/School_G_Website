@@ -248,8 +248,8 @@
     left: 0px;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-animation: round 35s linear infinite;
-    animation: round 35s linear infinite;
+    -webkit-animation: round 65s linear infinite;
+    animation: round 65s linear infinite;
 }
 .slideshow_containerb{
     position: relative;
@@ -263,93 +263,149 @@
     left: 0px;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-animation: round 35s linear infinite;
-    animation: round 35s linear infinite;
+    -webkit-animation: round 65s linear infinite;
+    animation: round 65s linear infinite;
 }
 
 
 /* Animation Parameter Setting */
 @-webkit-keyframes round{
-    2.857%{
+    1.54%{
         opacity: 1;
         filter: alpha(opacity=100);
     }
-    14.285%{
+    7.7%{
         opacity: 1;
         filter: alpha(opacity=100);
     }
-    17.142%{
+    9.24%{
         opacity: 0;
         filter: alpha(opacity=0);
     }
 }
 @keyframes round{
-    2.857%{
+    1.54%{
         opacity: 1;
         filter: alpha(opacity=100);
     }
-    14.285%{
+    7.7%{
         opacity: 1;
         filter: alpha(opacity=100);
     }
-    17.142%{
+    9.24%{
         opacity: 0;
         filter: alpha(opacity=0);
     }
 }
-.slideshow_containera div:nth-child(7){
+.slideshow_containera div:nth-child(14){
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
 }
-.slideshow_containera div:nth-child(6){
+.slideshow_containera div:nth-child(13){
     -webkit-animation-delay: 5s;
     animation-delay: 5s;
 }
-.slideshow_containera div:nth-child(5){
+.slideshow_containera div:nth-child(12){
     -webkit-animation-delay: 10s;
     animation-delay: 10s;
 }
-.slideshow_containera div:nth-child(4){
+.slideshow_containera div:nth-child(11){
     -webkit-animation-delay: 15s;
     animation-delay: 15s;
 }
-.slideshow_containera div:nth-child(3){
+.slideshow_containera div:nth-child(10){
     -webkit-animation-delay: 20s;
     animation-delay: 20s;
 }
-.slideshow_containera div:nth-child(2){
+.slideshow_containera div:nth-child(9){
     -webkit-animation-delay: 25s;
     animation-delay: 25s;
 }
+.slideshow_containera div:nth-child(8){
+    -webkit-animation-delay: 30s;
+    animation-delay: 30s;
+}
+.slideshow_containera div:nth-child(7){
+    -webkit-animation-delay: 35s;
+    animation-delay: 35s;
+}
+.slideshow_containera div:nth-child(6){
+    -webkit-animation-delay: 40s;
+    animation-delay: 40s;
+}
+.slideshow_containera div:nth-child(5){
+    -webkit-animation-delay: 45s;
+    animation-delay: 45s;
+}
+.slideshow_containera div:nth-child(4){
+    -webkit-animation-delay: 50s;
+    animation-delay: 50s;
+}
+.slideshow_containera div:nth-child(3){
+    -webkit-animation-delay: 55s;
+    animation-delay: 55s;
+}
+.slideshow_containera div:nth-child(2){
+    -webkit-animation-delay: 60s;
+    animation-delay: 60s;
+}
 .slideshow_containera div:nth-child(1){
+    -webkit-animation-delay: 65s;
+    animation-delay: 65s;
+}
+.slideshow_containerb div:nth-child(14){
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.slideshow_containerb div:nth-child(13){
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+.slideshow_containerb div:nth-child(12){
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+}
+.slideshow_containerb div:nth-child(11){
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+}
+.slideshow_containerb div:nth-child(10){
+    -webkit-animation-delay: 20s;
+    animation-delay: 20s;
+}
+.slideshow_containerb div:nth-child(9){
+    -webkit-animation-delay: 25s;
+    animation-delay: 25s;
+}
+.slideshow_containerb div:nth-child(8){
     -webkit-animation-delay: 30s;
     animation-delay: 30s;
 }
 .slideshow_containerb div:nth-child(7){
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+    -webkit-animation-delay: 35s;
+    animation-delay: 35s;
 }
 .slideshow_containerb div:nth-child(6){
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
+    -webkit-animation-delay: 40s;
+    animation-delay: 40s;
 }
 .slideshow_containerb div:nth-child(5){
-    -webkit-animation-delay: 10s;
-    animation-delay: 10s;
+    -webkit-animation-delay: 45s;
+    animation-delay: 45s;
 }
 .slideshow_containerb div:nth-child(4){
-    -webkit-animation-delay: 15s;
-    animation-delay: 15s;
+    -webkit-animation-delay: 50s;
+    animation-delay: 50s;
 }
 .slideshow_containerb div:nth-child(3){
-    -webkit-animation-delay: 20s;
-    animation-delay: 20s;
+    -webkit-animation-delay: 55s;
+    animation-delay: 55s;
 }
 .slideshow_containerb div:nth-child(2){
-    -webkit-animation-delay: 25s;
-    animation-delay: 25s;
+    -webkit-animation-delay: 60s;
+    animation-delay: 60s;
 }
 .slideshow_containerb div:nth-child(1){
-    -webkit-animation-delay: 30s;
-    animation-delay: 30s;
+    -webkit-animation-delay: 65s;
+    animation-delay: 65s;
 }
