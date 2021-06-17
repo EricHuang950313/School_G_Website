@@ -11,6 +11,21 @@
     src:url("../font_file/msjh.ttc");
 }
 
+@media screen and (max-width: 320px) and (orientation: portrait){
+    #abcdefg{
+        width:90%
+    }
+}
+@media screen and (max-width: 520px) and (min-width: 321px) and (orientation: portrait){
+    #abcdefg{
+        width:75%
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 521px){
+    #abcdefg{
+        width:60%
+    }
+}
 
 #select{
     position: fixed;
@@ -80,7 +95,7 @@
 .teacher_content_paragraph_right{
     font-weight:bold;
     line-height: 35px;
-    width:75%;
+    width:70%;
     font-family:fonta;
     font-size:24px;
     color: #383838;
