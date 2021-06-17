@@ -6,6 +6,10 @@
     font-family: "fontb";
     src: url("../font_file/TankuinEG-Bold-Big5.ttf");
 }
+@font-face{
+    font-family: "fontc";
+    src:url("../font_file/msjh.ttc");
+}
 
 
 #select{

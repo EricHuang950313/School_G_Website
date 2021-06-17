@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width">
     <title>107-9th-同學的話</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
@@ -23,6 +23,7 @@
         .student_div{
             width:100%;
             margin:0px 0px 20px;
+            box-sizing: border-box;
         }
         .name_div{
             width:90%;
@@ -30,18 +31,21 @@
         }
         .name_boy{
             margin: 0;
+            box-sizing: border-box;
             font-family: fontc;
             font-size: 40px;
             text-align: left;
         }
         .name_girl{
             margin: 0;
+            box-sizing: border-box;
             font-family: fontc;
             font-size: 40px;
             text-align: right;
         }
         .content_div_boy{
             margin: 0 auto;
+            box-sizing: border-box;
             padding: 10px;
             width: 90%;
             border-radius: 10px;
@@ -52,6 +56,7 @@
         }
         .content_div_girl{
             margin: 0 auto;
+            box-sizing: border-box;
             padding: 10px;
             width: 90%;
             border-radius: 10px;
@@ -67,18 +72,68 @@
             font-size: 24px;
             line-height: 36px;
         }
+        .a{
+            font-size: 28px;
+        }
+        #b{
+            width: 74%;
+        }
+        .c{
+            width:24%;
+        }
+        #d{
+             width: 100%;
+        }
+        @media screen and (max-width: 520px) and (orientation: portrait){
+            .a{
+                font-size: 10px;
+            }
+            #b{
+            width: 64%;
+            }
+            .c{
+                width:34%;
+            }
+            #d{
+            width: 100px;
+            height:30px;
+            }
+            .content{
+                font-size: 14px;
+                line-height: 20px
+            }
+        }
+        @media screen and (max-width: 1000px) and (min-width: 521px){
+            .a{
+                font-size: 15px;
+            }
+            #b{
+            width: 64%;
+            }
+            .c{
+                width:34%;
+            }
+            #d{
+            width: 180px;
+            height:40px;
+            }
+            .content{
+                font-size: 14px;
+                line-height: 20px
+            }
+        }
     </style>
 </head>
 
 <body style="margin: 0; background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);">
     <div style="width:100%; margin:25px 0px 50px;">
-        <div style="width:74%;margin: 0; display: inline-block;">
-            <p style="width:100%; margin:0; padding: 10px 15px 10px; text-align: center; font-family: fonta; font-size:28px">三年生活，有甘?有苦?......不管您是學生，抑或老師，我們都一起挺過去了！<br>聽完這首 我曾走過(查理普斯) 這三年的旅程即將結束。<br>期待人生的下一個篇章！</p>
-            <p style="width:100%; margin:0; padding: 0px 15px 10px; text-align: center; font-family: Allura, cursive; font-size:28px">In the three years of life, are there joys and sufferings? Whether you are a teacher or a student, we've gone through it together!<br>After listening to the song, "I've been through it all (Charlie Puth) ", the three-year journey is coming to an end.<br>Looking forward to the next chapter of life!</p>
+        <div style="margin: 0; display: inline-block;" id="b">
+            <p style="width:100%;box-sizing: border-box; margin:0; padding: 10px 15px 10px; text-align: center; font-family: fonta;" class="a">三年生活，有甘?有苦?......<br>不管您是學生，抑或老師，我們都一起挺過去了！<br>聽完這首 我曾走過(查理普斯演唱)這三年的旅程即將結束。<br>期待人生的下一個篇章！</p>
+            <p style="width:100%;box-sizing: border-box; margin:0; padding: 0px 15px 10px; text-align: center; font-family: Allura, cursive;" class="a">In the three years of life, are there joys and sufferings?<br>Whether you are a teacher or a student, we've gone through it together!<br>After listening to the song, "I've been through it all (Charlie Puth) ", the three-year journey is coming to an end.<br>Looking forward to the next chapter of life!</p>
         </div>
-        <div style="width:24%; margin:0; display:inline-block; ">
-            <audio src="./Charlie Puth - Through It All [Official Audio].mp3" autoplay controls style="display:block; margin: 0 auto;"></audio>
-            <p style="text-align: center; font-family: fontc;">Link: https://reurl.cc/zeNxO6</p>
+        <div style="margin:0; display:inline-block;" class="c">
+            <audio src="./Charlie Puth - Through It All [Official Audio].mp3" controls style="display:block; margin: 0 auto;" id="d"></audio>
+            <p style="text-align: center; font-family: fontc;" class="a"><a href="https://reurl.cc/zeNxO6" target="_blank">LINK</a></p>
         </div>
     </div>
     <div class="student_div">
@@ -86,7 +141,7 @@
             <p class="name_boy"><span style="font-family: fontc; font-size:16px;">01&nbsp;&nbsp;&nbsp;</span>吳承鴻</p>
         </div>
         <div class="content_div_boy">
-            <p class="content">缺交作業</p>
+            <p class="content">^^</p>
         </div>
     </div>
     <div class="student_div">
@@ -94,7 +149,12 @@
             <p class="name_boy"><span style="font-family: fontc; font-size:16px;">02&nbsp;&nbsp;&nbsp;</span>吳秉華</p>
         </div>
         <div class="content_div_boy">
-            <p class="content">缺交作業</p>
+            <p class="content">
+                各位同學，在我們相處的這三年中（雖然有一個只有在第一年比較常見到）從第一年的不認識到第二年的不熟識 再到第三年的太認識 
+                雖然中間經歷了許許多多大大小小各式各樣不同的波折 但是我們大家總是能夠共同面對它 解決它 從來沒有人逃跑 也沒有人放棄 
+                除了我們自身強大的心靈之外 更多是因為309大天使幫助我們解決各種問題<br>
+                最後 祝大家都有考上理想的高中（我怕字數不夠 所以又加上現在這一句話）
+            </p>
         </div>
     </div>
     <div class="student_div">
@@ -102,7 +162,7 @@
             <p class="name_boy"><span style="font-family: fontc; font-size:16px;">03&nbsp;&nbsp;&nbsp;</span>杜願達</p>
         </div>
         <div class="content_div_boy">
-            <p class="content">缺交作業</p>
+            <p class="content">^^</p>
         </div>
     </div>
     <div class="student_div">
@@ -136,8 +196,8 @@
         </div>
         <div class="content_div_boy">
             <p class="content">
-                恩...................................讓我想一下，你覺得我在湊字數嗎?對我是在湊字數XD恩.........讓我想一下，你說你看過上一句話。
-                恩......................嘿我要寫啥......................啊我想到了。我想到了什麼?阿祝各位畢業快樂
+                恩...讓我想一下，你覺得我在湊字數嗎?對我是在湊字數XD恩......讓我想一下，你說你看過上一句話。
+                恩...嘿我要寫啥......啊我想到了。我想到了什麼?阿祝各位畢業快樂
             </p>
         </div>
     </div>
@@ -227,9 +287,7 @@
             <p class="name_boy"><span style="font-family: fontc; font-size:16px;">14&nbsp;&nbsp;&nbsp;</span>蔡秉儒</p>
         </div>
         <div class="content_div_boy">
-            <p class="content">
-                缺交作業
-            </p>
+            <p class="content">^^</p>
         </div>
     </div>
     <div class="student_div">
@@ -254,7 +312,7 @@
             </p>
         </div>
     </div>
-    <div class="student_div" style="margin: 0 0 200px;">
+    <div class="student_div">
         <div class="name_div">
             <p class="name_boy"><span style="font-family: fontc; font-size:16px;">17&nbsp;&nbsp;&nbsp;</span>顏世承</p>
         </div>
@@ -309,7 +367,9 @@
         </div>
         <div class="content_div_girl">
             <p class="content">
-                缺交作業
+                國一剛進去每個同學都是青澀的模樣，熱情的跟同學們打招呼。
+                剛開始難免會尷尬，久而久之就變成了無話不談的朋友了。
+                我相信友情是不會因為疫情而失去聯絡，希望在開學之前能一起去班遊！
             </p>
         </div>
     </div>
@@ -328,9 +388,7 @@
             <p class="name_girl">李佳育<span style="font-family: fontc; font-size:16px;">&nbsp;&nbsp;&nbsp;22</span></p>
         </div>
         <div class="content_div_girl">
-            <p class="content">
-                缺交作業
-            </p>
+            <p class="content">^^</p>
         </div>
     </div>
     <div class="student_div">
@@ -375,9 +433,7 @@
             <p class="name_girl">陳靖唯<span style="font-family: fontc; font-size:16px;">&nbsp;&nbsp;&nbsp;26</span></p>
         </div>
         <div class="content_div_girl">
-            <p class="content">
-                缺交作業
-            </p>
+            <p class="content">^^</p>
         </div>
     </div>
     <div class="student_div">
