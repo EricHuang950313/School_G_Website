@@ -1,0 +1,110 @@
+@font-face{
+    font-family: "fonta";
+    src:url("../font_file/cll.ttf");
+}
+@font-face {
+    font-family: "fontb";
+    src: url("../font_file/TankuinEG-Bold-Big5.ttf");
+}
+@font-face{
+    font-family: "fontc";
+    src:url("../font_file/msjh.ttc");
+}
+
+@media screen and (max-width: 320px) and (orientation: portrait){
+    #abcdefg{
+        width:90%
+    }
+}
+@media screen and (max-width: 520px) and (min-width: 321px) and (orientation: portrait){
+    #abcdefg{
+        width:75%
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 521px){
+    #abcdefg{
+        width:60%
+    }
+}
+@media screen and (min-width: 1001px){
+    #abcdefg{
+        width:30%
+    }
+}
+
+#select{
+    position: fixed;
+    width: 100%;
+    top: 1%;
+}
+
+
+#home_teacher_info_div{
+    width:80%;
+    margin:100px auto 15px;
+}
+#home_teacher_info_paragraph{
+    font-family: fontb;
+    font-size:72px;
+    color: #942700;
+    margin: 0;
+    text-align: center;
+}
+#home_teacher_content_div{
+    border:dashed white;
+    width:80%;
+    padding: 20px;
+    background-color: black;
+    margin:0 auto 75px;
+}
+#home_teacher_content_paragraph{
+    font-family:fonta;
+    font-size:24px;
+    color: #ffcc00;
+    margin: 0;
+}
+
+
+.teacher_info_div{
+    width: 100%;
+    margin:0 auto 15px;
+}
+.teacher_info_paragraph_left{
+    font-family: fontb;
+    font-size:48px;
+    color: #942700;
+    text-align: left;
+    margin: 0;
+}
+.teacher_info_paragraph_right{
+    font-family: fontb;
+    font-size:48px;
+    color: #942700;
+    text-align: right;
+    margin: 0;
+}
+
+.teacher_content_div{
+    width:100%;
+    margin: 0 0 50px;
+}
+.teacher_content_paragraph_left{
+    font-weight:bold;
+    line-height: 35px;
+    width:80%;
+    font-family:fonta;
+    font-size:24px;
+    color: #383838;
+    margin: 0 auto 0  20px;
+    text-align: left;
+}
+.teacher_content_paragraph_right{
+    font-weight:bold;
+    line-height: 35px;
+    width:70%;
+    font-family:fonta;
+    font-size:24px;
+    color: #383838;
+    margin: 0 20px 0 auto;
+    text-align: left;
+}

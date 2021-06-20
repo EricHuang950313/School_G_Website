@@ -1,0 +1,212 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 752px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 712px;
+  left: 307px;
+  right: 201px;
+  background-image: none;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  width: 1175px;
+  margin: 60px -17px 31px;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 661px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 50px 40px 50px 29px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 7.5rem;
+  text-transform: none;
+  font-family: WeiBei-Bold;
+  margin: 21px 11px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-style: italic;
+  text-transform: none;
+  font-weight: 700;
+  margin: 4px 11px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: cll;
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin: 35px 10px 0 2px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: solid;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  margin: 42px auto 0 75px;
+  padding: 15px 49px 15px 48px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 661px;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/N011643345_t_02.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 50px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 643px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    left: 167px;
+    right: 61px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 940px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 529px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 529px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 689px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 357px;
+    left: auto;
+    right: 156px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding: 30px 30px 30px 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 405px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1091px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 306px;
+    left: 0;
+    right: 0;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 540px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 0;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 608px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 963px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 201px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 383px;
+  }
+}@font-face {
+  font-family: 'WeiBei-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/WeiBei-Bold.ttf);
+}@font-face {
+  font-family: 'cll';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/cll.ttf);
+}
